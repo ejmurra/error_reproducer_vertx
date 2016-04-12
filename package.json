@@ -1,0 +1,16 @@
+{
+  "name": "vertx_reproducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/vertx run server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.71.0",
+    "vertx3-full": "^3.2.1"
+  }
+}
