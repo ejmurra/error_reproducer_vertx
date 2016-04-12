@@ -1,5 +1,6 @@
 var r = require('request'); // This line causes the error. Comment it out and it works.
 
+// This is the hello world example from http://vertx.io/docs/vertx-web/js/#_sockjs_event_bus_bridge
 var Router = require("vertx-web-js/router");
 var server = vertx.createHttpServer();
 
